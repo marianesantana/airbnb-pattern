@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add --dev eslint
+
+PATH: 
+  C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Users\marianesantana\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.7;C:\Program Files (x86)\Yarn\bin\;C:\Users\marianesantana\AppData\Local\Microsoft\WindowsApps;C:\Users\marianesantana\AppData\Roaming\npm;C:\Users\marianesantana\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\marianesantana\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\marianesantana\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: self signed certificate
+      at TLSSocket.onConnectSecure (_tls_wrap.js:1058:34)
+      at TLSSocket.emit (events.js:198:13)
+      at TLSSocket._finishInit (_tls_wrap.js:636:8)
+
+npm manifest: 
+  {
+    "name": "airbnb-pattern",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/marianesantana/airbnb-pattern",
+    "author": "mariane",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
